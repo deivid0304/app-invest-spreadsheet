@@ -1,19 +1,36 @@
-# Excel Investment Simulator
+# 💰 APP INVEST - Planilha de Investimento com Cara de Aplicativo
 
-Tool for investment projections with compound interest and dividend calculations.
+Essa planilha foi criada para ajudar você a organizar e simular seus investimentos mensais em fundos imobiliários (FIIs), com projeções futuras e uma interface visual inspirada em apps.
 
-## Features
-- Projections with monthly contributions
-- Compound interest calculations
-- Dividend simulation
-- Comparative charts
+## 📌 Funcionalidades
 
-## How to Use
-1. Download `Investment-Simulator.xlsx` file
-2. Enter data in the "Inputs" sheet
-3. View projections in the "Results" sheet
+- Simulação de aportes mensais com rendimento composto.
+- Cálculo automático de dividendos futuros.
+- Sugestão de alocação por tipo de FII.
+- Visual de dashboard com gráficos e indicadores.
+- Cenários para 2, 5, 10, 20 e 30 anos.
+- Personalizável conforme seu perfil de risco.
 
-## Implemented Calculations
-- Future Value with FV()
-- Monthly/annual returns
-- Dividend calculation with reinvestment
+## 🛠️ Como Usar
+
+1. Abra o arquivo `AppInvest.xlsx` no Excel ou Google Sheets.
+2. Insira seu salário, rendimento da carteira e valor mensal de aporte.
+3. Visualize os resultados no painel.
+4. Personalize a alocação conforme seu perfil: conservador, moderado ou agressivo.
+
+## 🖼️ Preview
+
+![Preview da planilha](./preview.png)
+
+## 📊 Fórmulas principais
+
+- **Juros compostos**: `VF = P * ((1 + i)^n - 1) / i`
+- **Dividendos mensais**: `VF * taxa_rendimento`
+
+## 📢 Contribuições
+
+Sinta-se à vontade para sugerir melhorias ou abrir issues com ideias de novas funcionalidades!
+
+## 📃 Licença
+
+MIT © 2025 Deivid Marcio
