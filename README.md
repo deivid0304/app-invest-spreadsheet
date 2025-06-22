@@ -20,7 +20,7 @@ Essa planilha foi criada para ajudar você a organizar e simular seus investimen
 
 ## 🖼️ Preview
 
-![image](https://github.com/user-attachments/assets/f45df56f-5dbc-4487-8ec9-9f9e4694cf88)
+![Preview da planilha](./preview.png)
 
 ## 📊 Fórmulas principais
 
